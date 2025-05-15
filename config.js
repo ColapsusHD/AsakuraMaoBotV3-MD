@@ -10,12 +10,14 @@ import { tr, translateText } from './lib/_checkLang.js';
 
 //---------[ Añada los numeros a ser Propietario/a ]---------
 
-global.owner = [['5214774444444', 'ＰＲＯＰＩＥＴＡＲＩＯ', true], ['573226873710'], ['593968585383'], ['17866277409'], ['5217411126626'], ['5213347320542'], ['595986505424'], ['5219999699999'], ['5217441452981'], ['523482800300'], ['573007487856'], ['5217773342977'], ['573008499604'], ['5492266613038']]
+global.owner = [['5492604849203', '5492604631960', true],
+  ['5493772406612', '5492604057569', true],
+  ['5493794297363', true]]
 global.mods = []
-global.prems = []
+global.prems = ['5493772406612', '5492604849203']
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
-global.botNumberCode = "" //Ejemplo: +59309090909
+global.botNumberCode = "+5492604631960" //Ejemplo: +59309090909
 global.confirmCode = "" 
 global.gataJadibts = true //cambia a false Desactivar en "auto-reconexion" de sub-bots
 
@@ -43,12 +45,12 @@ global.moment = moment
 
 //------------------------[ Stickers ]-----------------------------
 
-global.packname = 'LoliBot'
-global.author = 'elrebelde21'
+global.packname = 'Sticker'
+global.author = 'ᴀꜱᴀᴋᴜʀᴀ ᴍᴀᴏ ʙᴏᴛ 👑'
 
 //------------[ Versión | Nombre | cuentas ]------------
 
-global.wm = '𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿' 
+global.wm = 'ᴀꜱᴀᴋᴜʀᴀ ᴍᴀᴏ ʙᴏᴛ 👑' 
 global.vs = '1.9.8'
 global.yt = 'https://www.youtube.com/@elrebelde.21'
 global.tiktok = 'https://www.tiktok.com/@elrebelde.21'
@@ -103,7 +105,7 @@ global.imageUrl = ["https://qu.ax/HJnWj.jpg", "https://qu.ax/ehPzQ.jpg", "https:
 //----------------------------[ NIVELES | RPG ]---------------------------------
 
 global.multiplier = 850 // Cuanto más alto, más difícil subir de nivel
-global.maxwarn = '4' // máxima advertencias
+global.maxwarn = '6' // máxima advertencias
 
 //---------------[ IDs de canales ]----------------
 
