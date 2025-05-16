@@ -10,13 +10,11 @@ import { tr, translateText } from './lib/_checkLang.js';
 
 //---------[ Añada los numeros a ser Propietario/a ]---------
 
-global.owner = [
-  ['5492604849203', '5492604631960', true],
+global.owner = [['5492604849203', '5492604631960', true],
   ['5493772406612', '5492604057569', true],
-  ['5493794297363', true]
-];
-global.mods = [];
-global.prems = ['5493772406612', '5492604849203'];
+  ['5493794297363', true]]
+global.mods = []
+global.prems = ['5493772406612', '5492604849203']
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 global.botNumberCode = "+5492604631960" //Ejemplo: +59309090909
