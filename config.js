@@ -12,7 +12,7 @@ import { tr, translateText } from './lib/_checkLang.js';
 
 global.owner = [['5492604849203', '5492604631960', true],
   ['5493772406612', '5492604057569', true],
-  ['5493794297363', true]]
+  ['5493794297363', true]];
 global.mods = []
 global.prems = ['5493772406612', '5492604849203']
 
